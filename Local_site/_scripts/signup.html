@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+    <div class="signup container">
+        <h2>Sign Up</h2>
+        <form action="#" method="post">
+            <label for="firstname">First Name</label>
+            <input type="firstname" name="firstname" placeholder="Enter your First Name" required minlength="3"><br><br>
+
+            <label for="lastname">Last Name</label>
+            <input type="lastname" name="lastname" placeholder="Enter your Last Name" required minlength="3"><br><br>
+
+            <label for="dateofbirth">Date of Birth</label>
+            <input type="dateofbirth" name="dateofbirth" placeholder="dd/mm/yyyy" required><br><br>
+
+            <label for="phone">Phone number</label>
+            <input type="phone" name="phone" placeholder=" 00000000" required pattern="216+[0-9]" required
+                maxlength="8"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter your Email" required
+                pattern="[a-zA-Z0-9._%+-]+@supcom\.tn$"><br><br>
+
+            <label for="password">Password</label>
+            <input name="password" placeholder="Enter your password" required
+                pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"><br><br>
+
+            <label for="password">Confirm Password</label>
+            <input name="password" placeholder="Enter your password again" required><br><br>
+
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+ <li>
+                    <form action="/search" method="GET">
+                        <input type="text" name="query" placeholder="Search courses or categories">
+                        <button type="submit">Search</button>
+                    </form>
+                </li>
+
+
+
+
+
+
+Adresse : Cité Technologique des Communications Rte de Raoued Km 3,5 - 2083, Ariana Tunisie
+
+Téléphone (+216) 70 240 900
+
+Email : contact@supcom.tn
